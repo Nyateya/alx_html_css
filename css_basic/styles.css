@@ -1,17 +1,26 @@
-body{
+body {
+  background-color: blueviolet;
+
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
 }
-main{
+
+h1 {
+  color: brown;
+}
+
+main {
   display: flex;
   flex-direction: row;
   flex: auto;
 }
-article{
+
+article {
   flex: 2;
   overflow-y: auto;
 }
-aside{
+
+aside {
   flex: 1;
   overflow-y: auto;
 }
