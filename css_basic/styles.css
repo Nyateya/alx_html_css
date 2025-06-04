@@ -1,13 +1,24 @@
 body {
-  background-color: blueviolet;
+  background-color: rgb(195, 151, 236);
+  border: 30px;
+  margin: 50px;
+  padding: 10px;
 
   display: flex;
   flex-direction: column;
 }
 
+
 h1 {
-  color: brown;
+  color: azure;
 }
+h2{
+  color: azure;
+}
+h3{
+  color: azure;
+}
+
 
 main {
   display: flex;
@@ -16,11 +27,25 @@ main {
 }
 
 article {
+  position: relative;
+
   flex: 2;
   overflow-y: auto;
 }
+article img{
+  width: 100%;
+  max-width: fit-content;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px;
+}
 
 aside {
+  
+  background-color: rgb(99, 85, 102);
   flex: 1;
   overflow-y: auto;
 }
+
