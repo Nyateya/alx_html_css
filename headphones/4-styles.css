@@ -1,0 +1,284 @@
+
+body {
+  margin: 0px;
+  font-family: sans-pro, Arial, sans-serif;
+  
+}
+.big{
+  
+  background-image: url("images/headphones_hero_1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  
+}
+.logo-heading {
+  display: flex;
+  align-items: self-start;
+  font-size: x-small;
+  
+}
+.logo-heading img {
+  width: 200px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.nav-links li {
+  margin: 0 10px;
+}
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.nav-links li a:hover {
+  color: #FF6565;
+}
+.part {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.part h2 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.part p {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  max-width: 600px;
+
+}
+.part button {
+  background-color: #FF6565;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+.part button:hover {
+  opacity: 0.9;
+}
+.section{
+  font-family: sans-pro, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  margin : 0;
+  padding: 40px;
+  box-sizing: border-box;
+
+}
+.text {  
+  text-align: center;
+  max-width: 800px;
+  margin-bottom: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+
+}
+.icons{
+  font-family: 'holberton_school-icon';
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  display: flex;
+  padding: 30px;
+  margin: auto;
+  box-sizing: border-box;
+}
+.holberton_school-icon-ic_sound:before {
+  color: red;
+  margin: 20px;
+ font-size: 80px
+}
+.holberton_school-icon-ic_video:before {
+ color: red;
+ margin: 20px;
+font-size: 80px;
+}
+.holberton_school-icon-ic_music:before {
+  color: red;
+  margin: 20px;
+  font-size: 80px;
+}
+  
+.holberton_school-icon-ic_hearing:before {
+  color: red;
+  margin: 20px;
+  font-size: 80px;
+}
+.head {
+  background-image: url("images/headphones_hero_2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 50px 0;
+}
+.heading{
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.para {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+.pent{
+
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+
+}
+
+.pent div {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.pent img {
+width: 100px;              
+height: auto;
+display: block;          
+
+}
+.pent-text {
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  padding: auto;
+ 
+}
+.contact{
+  display: flex;
+justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: sans-pro, Arial, sans-serif;
+
+}
+.form{
+  font-family: sans-pro, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+
+
+}
+.line-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid rgb(99, 93, 93);
+}
+.form button{
+  background-color: #FF6565;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.footer {
+  background-color:rgb(1, 1, 22);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  color: #fff;
+  font-family: sans-pro, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  
+}
+.footer-raw{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+  padding: 20px;
+  font-size: 10px;
+  color: #fff;
+}
+.footer img {
+  width: 200px;
+  height: 40px;
+  margin-right: 300px;
+  margin-bottom: 30px;
+  font-size: medium;
+ 
+}
+.footer p {
+  font-size: 20px;
+text-align: center;
+margin-bottom: 30px;
+}
+.social-links{
+  justify-content: center;
+  gap: 20px;
+  padding-bottom:20px;
+  display: flex;
+  
+}
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+  
+
+
+
+
